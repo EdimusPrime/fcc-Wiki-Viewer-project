@@ -4,16 +4,31 @@ body{
 	/*width: 100vw;*/
 	height: 100vh;
 	margin: auto;
-		background-color: black;
+	background-color: #696969;
 }
 
 a{
-	color: grey;
+	/*color: grey;*/
 	text-transform: uppercase;
+	font-weight: bolder;
 }
 
  p{
-	color: grey;
+	color: #4169E1;
+}
+
+a, p{
+	font-size: 2rem;
+	font-family: 'Bellefair', serif;
+}
+
+.glyphicon{
+	color: orange;
+}
+
+.btn{
+	background-color: #F8F8FF;
+	width: 7rem;
 }
 
 
@@ -21,4 +36,11 @@ a{
 	border: 1px solid black;
 	padding: 30rem;
 	margin-top: 10rem;
+}
+
+.wiki-box{
+	border: 1px solid black;
+	padding: 5rem;
+	border-radius: 60px;
+	background-color: #D3D3D3;	
 }
