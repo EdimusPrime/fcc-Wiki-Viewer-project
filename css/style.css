@@ -1,0 +1,24 @@
+
+
+body{
+	/*width: 100vw;*/
+	height: 100vh;
+	margin: auto;
+		background-color: black;
+}
+
+a{
+	color: grey;
+	text-transform: uppercase;
+}
+
+ p{
+	color: grey;
+}
+
+
+.wiki{
+	border: 1px solid black;
+	padding: 30rem;
+	margin-top: 10rem;
+}
