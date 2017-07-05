@@ -4,7 +4,9 @@ body{
 	/*width: 100vw;*/
 	height: 100vh;
 	margin: auto;
-	background-color: #2F4F4F;
+/*	background-color: #2F4F4F;
+*/	background: url("http://www.fullhdwpp.com/wp-content/uploads/Wikipedia.jpg");
+	background-size: cover;
 }
 
 a{
@@ -23,19 +25,11 @@ a, p{
 	color: white;
 }
 
-/*.glyphicon{
-	color: orange;
-}*/
-
-.btn{
-	background-color: #F8F8FF;
-	width: 7rem;
-}
-
 
 .wiki{
-	padding: 30rem;
-	margin-top: 10rem;
+	padding: 10rem;
+	width: 80rem;
+	padding-top: 55rem;
 }
 
 .wiki-box{
@@ -43,6 +37,10 @@ a, p{
 	padding: 5rem;
 	border-radius: 60px;
 	background-color: #696969;	
+}
+
+input{
+	margin-bottom: 23rem;
 }
 
 input[type=text] {
