@@ -1,9 +1,14 @@
 $( document ).ready(function() {
 
-$("btn").click(function(){
+// console.log("Wiki This!")
 
-})
+// $(".submit").click(function(){
 
+// })
+
+// function wikiSearch{
+
+// }
 
 
 

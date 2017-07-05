@@ -24,10 +24,10 @@ a, p{
 }
 
 .wiki-box{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	padding: 5rem;
 	border-radius: 60px;
-	background-color: rgba(105, 105, 105, .7);	
+	background-color: rgba(105, 105, 105, .4);	
 }
 
 input{
