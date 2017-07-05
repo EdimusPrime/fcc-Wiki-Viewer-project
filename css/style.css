@@ -6,21 +6,12 @@ body{
 	margin: auto;
 /*	background-color: #2F4F4F;
 */	background: url("http://www.fullhdwpp.com/wp-content/uploads/Wikipedia.jpg");
-	background-size: cover;
+	background-size: 100vw 100vh;
 }
 
-a{
-	/*color: grey;*/
-	text-transform: uppercase;
-	font-weight: bolder;
-}
-
- a{
-	text-decoration: underline;
-}
 
 a, p{
-	font-size: 2rem;
+	font-size: 3rem;
 	font-family: 'Bellefair', serif;
 	color: white;
 }
@@ -36,7 +27,7 @@ a, p{
 	border: 1px solid black;
 	padding: 5rem;
 	border-radius: 60px;
-	background-color: #696969;	
+	background-color: rgba(105, 105, 105, .7);	
 }
 
 input{
@@ -52,4 +43,16 @@ input[type=text] {
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 100%;
+}
+
+input:hover{
+	cursor: text;
+}
+
+.submit:hover{
+	cursor: pointer;
+}
+
+.submit{
+	margin-top: 1.5rem; 
 }
