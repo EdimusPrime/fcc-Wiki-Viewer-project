@@ -2,9 +2,11 @@ $( document ).ready(function() {
 
 // console.log("Wiki This!")
 
-// $(".submit").click(function(){
+$("#search").click(function(){
 
-// })
+	var searchTerm= $("searchTerm").val()
+
+})
 
 // function wikiSearch{
 
