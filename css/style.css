@@ -16,6 +16,16 @@ a, p{
 	color: white;
 }
 
+ul a{
+	font-size: 3rem;
+	font-style: italic;
+	color: gold;
+}
+
+a:hover{
+	color: gold;
+	font-weight: bolder;
+}
 
 .wiki{
 	padding: 10rem;
@@ -28,6 +38,8 @@ a, p{
 	padding: 5rem;
 	border-radius: 60px;
 	background-color: rgba(105, 105, 105, .4);	
+	/*height: 30rem;*/
+	overflow-y: scroll;
 }
 
 input{
@@ -42,7 +54,7 @@ input[type=text] {
 
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
-    width: 100%;
+    width: 50%;
 }
 
 input:hover{
@@ -51,6 +63,7 @@ input:hover{
 
 .submit:hover{
 	cursor: pointer;
+	color: gold;
 }
 
 .submit{
